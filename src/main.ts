@@ -3,6 +3,7 @@ import { HttpAdapterHost, NestFactory } from '@nestjs/core';
 import { SwaggerModule } from '@nestjs/swagger';
 import mongoose from 'mongoose';
 import { AppModule } from './app.module';
+import './config/date.config';
 
 import swaggerConfig from './config/swagger.config';
 import validationConfig from './config/validationPipe.config';

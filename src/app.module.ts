@@ -9,6 +9,7 @@ import { AuthModule } from './modules/auth/auth.module';
 import { CloudinaryModule } from './modules/cloudinary/cloudinary.module';
 import { MailModule } from './modules/mail/mail.module';
 import { CashboxesModule } from './modules/cashboxes/cashboxes.module';
+import { StatisticsModule } from './modules/statistics/statistics.module';
 import configuration from './config/configuration';
 
 @Module({
@@ -26,6 +27,7 @@ import configuration from './config/configuration';
     CloudinaryModule,
     MailModule,
     CashboxesModule,
+    StatisticsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
